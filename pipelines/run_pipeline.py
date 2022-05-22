@@ -87,7 +87,7 @@ def main():  # pragma: no cover
         print(upsert_response)
 
         execution = pipeline.start()
-        print(f"\n###### Execution started with PipelineExecutionArn: {execution.arn}")
+        print(f"\n###### Execution started with PipelineExecutionArn2: {execution.arn}")
 
         print("Waiting for the execution to finish...")
         execution.wait()
